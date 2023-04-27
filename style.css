@@ -1,0 +1,165 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* Header */
+.logo {
+    width: 200px;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+.btn-outline-success {
+    color: red;
+   
+    border-color: black;
+    --bs-btn-color: red;
+    --bs-btn-border-color: red;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: red;
+    --bs-btn-hover-border-color: red;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: red;
+    --bs-btn-active-border-color: red;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: red;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color:red;
+}
+.iconos {
+    width: 30px;
+}
+.navbar-brand {
+    margin-left: 40%;
+}
+.container-header {
+    position: relative ;
+}
+/* Fin Header */
+/* Img principal */
+.container-Imagen{
+    width: 100%;
+}
+.Foto-modelo{
+    width: 100%;
+}
+/* Fin Img principal */
+/* Carousel */
+.temporada {
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    padding: 50px;
+}
+.Container-carousel{
+    background-color: rgb(176, 176, 176);
+}
+.carousel-control-prev-icon {
+    background-color: black;
+}
+.carousel-control-next-icon {
+    background-color: black;
+}
+.color-text{
+    color: black;
+}
+/* Fin Carousel */
+/* Imagen lineal Negra */
+.container-imglineal{
+    display: flex;
+    justify-content: center;
+}
+/* Fin Imagen lineal Negra */
+/* Cards */
+.container-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+/* Fin Cards */
+/* Footer */
+footer {
+    width: 100%;
+    margin-top: auto;
+}
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    border-top: 5px solid black;
+    border-bottom: 5px solid red;
+    padding: 20px;
+    
+}
+.nav-link{
+    color: red;
+}
+/* Fin Footer */
+
+/* ---------------  RUTAS --------------- */
+
+/* Contactos */
+.container-contactos{
+    margin: 100px;
+}
+
+/* Calzados */
+.titulo-calzados{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(124, 121, 121);
+}
+.container-calzados {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        }
+        
+        .div1 { grid-area: 2 / 2 / 3 / 3; }
+        .div2 { grid-area: 4 / 2 / 5 / 3; }
+        .div3 { grid-area: 2 / 4 / 3 / 5; }
+        .div4 { grid-area: 4 / 4 / 5 / 5; }
+
+    @media screen and (max-width: 1050px){
+
+        .div1 { grid-area: 2 / 3 / 3 / 4; }
+        .div2 { grid-area: 3 / 3 / 4 / 4; }
+        .div3 { grid-area: 4 / 3 / 5 / 4; }
+        .div4 { grid-area: 5 / 3 / 6 / 4; }
+ }
+ 
+.Precio{
+    margin-left:30%;
+}
+
+/* Politicas y privacidad */
+
+.politicas-y-privacidad {
+    padding: 50px;
+}
+.pyph1{
+    margin: 40px;
+}
+.pyph2{
+    margin: 20px;
+}
+.pypp{
+    margin: 10px;
+}
+/* Fin Politicas y privacidad */
+
+/* Mapa */
+.conteiner-mapa{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mapa-dir{
+    margin: 40px;
+    
+}
+.dir{
+    margin: 50px;
+}

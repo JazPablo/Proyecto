@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Proyecto Coder</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <Header class="container-header">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="Images/LogoOriginal.jpg" class="logo" alt="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"><img src="Images/search.svg" alt=""></button>
+                </form>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="rutas/contacto.html">
+                        <img src="Images/Contacto.png" class="iconos" alt="Contacto">
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="Images/local.png" class="iconos" alt="Locales">
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="Images/perfil.png" class="iconos" alt="Perfil">
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">
+                        <img src="Images/bolso carrito.png" alt="Carrito" class="iconos">
+                    </a>
+                  </li>
+                </ul> 
+              </div>
+            </div>
+          </nav>
+    </Header>
+    <!-- Fin Header -->
+
+    <!-- Imagen principal -->
+    <section class="container-Imagen">
+        <img src="Images/FotomodeloFarenheiteNico.jpg" class="Foto-modelo" alt="Modelo de Farenheite">
+    </section>
+    <!-- Fin Imagen principal -->
+
+    <!-- Carousel -->
+    <section class="Container-carousel">
+        <h1 class="temporada">TEMPORADA</h1>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Images/Remera1anchoALTO.jpg" class="d-block w-100" alt="Remera">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="color-text">Remera Disort</h5>
+                  <p class="color-text">$12.000</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Images/remera2ancho.jpg" class="d-block w-100" alt="Remera">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="color-text">Lugury</h5>
+                  <p class="color-text">$14.000</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Images/remera3ancho.jpg" class="d-block w-100" alt="Remera">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="color-text">Seal Doom</h5>
+                  <p class="color-text">$11.500</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>  
+    <!-- Fin Carousel -->
+
+    <!-- Imagen Lineal Negra -->
+    <section class="container-imglineal">
+        <img src="Images/farenImagenlinealnegra.jpg" class="img-negra" alt="FHT">
+    </section>
+    <!-- Fin Imagen Lineal Negra -->
+
+    <!-- Cards -->
+    <section class="container container-card">
+        <div class="row"> 
+        <div class="col-lg-4 col-md-6 col-sm-12 card" >
+            <img src="Images/cardCALZADO.jpg" class="card-img-top" alt="Buzos">
+            <div class="card-body">
+              <h5 class="card-title">CALZADO</h5>
+              <p class="card-text"></p>
+              <a href="rutas/calzado.html" class="btn btn-primary">Ver mas</a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 card" >
+            <img src="Images/cardBUZO.jpg" class="card-img-top" alt="JEAN">
+            <div class="card-body">
+              <h5 class="card-title">BUZOS</h5>
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-primary">Ver mas</a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 card" >
+            <img src="Images/cardJEAN.jpg" class="card-img-top" alt="Camisa">
+            <div class="card-body">
+              <h5 class="card-title">JEANS</h5>
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-primary">Ver mas</a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 card" >
+            <img src="Images/cardCAMISA.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CAMISAS</h5>
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-primary">Ver mas</a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 card" >
+            <img src="Images/cardREMERA.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">REMERAS</h5>
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-primary">Ver mas</a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 card">
+            <img src="Images/cardJOGGERS.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">JOGGERS</h5>
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-primary">Ver mas</a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Fin Cards -->
+    <!-- Footer -->
+    <footer>
+      <div class="container-flex"> 
+        <div>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="/rutas/politica y privacidad.html">Politicas de privacidad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Terminos y condiciones</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li> -->
+          </ul>
+        </div>
+        <div class="footer-logo">
+          <nav>
+            <a href="">
+             <img src="Images/LogoOriginal.jpg" class="logo" alt="">
+            </a>
+          </nav>
+        </div>
+        <div>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img src="Images/inst.png" class="iconos" alt="Instagram">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img src="Images/face.png"  class="iconos" alt="Facebook">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div> 
+    </footer>
+    <!-- Fin Footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
