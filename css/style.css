@@ -1,9 +1,13 @@
 body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    /* display: flex;
+    flex-direction: column; */
+    /* min-height: 100vh; */
+    min-width: 300px;
+    width: 100%;
+
 }
 /* Header */
+
 .logo {
     width: 200px;
 }
@@ -132,7 +136,7 @@ footer {
  }
  
 .Precio{
-    margin-left:30%;
+    margin-left:20%;
 }
 
 /* Politicas y privacidad */
