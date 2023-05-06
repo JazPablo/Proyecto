@@ -107,15 +107,22 @@ footer {
 .container-mapa{
     display: flex;
 }
-.mapa-img{
+.tabla-contactos{
     display: flex;
+   
 }
+
 
 /* ---------------  RUTAS --------------- */
 
 /* Contactos */
 .container-contactos{
     margin: 100px;
+    display: flex;
+}
+.flex-item{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* Calzados */
@@ -183,4 +190,7 @@ footer {
 .container-flex {
     flex-direction: column;
 }
+}
+@media (max-width: 600px) { 
+    
 }
