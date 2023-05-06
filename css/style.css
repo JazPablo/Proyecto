@@ -1,6 +1,7 @@
 body{
-     display: flex;
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
   
 
 }
@@ -85,10 +86,9 @@ body{
 }
 /* Fin Cards */
 /* Footer */
-footer {
+footer {    
     width: 100%;
     margin-top: auto;
-
 }
 .container-flex{
     display: flex;
@@ -96,12 +96,20 @@ footer {
     border-top: 5px solid black;
     border-bottom: 5px solid red;
     padding: 20px;
+    
 
 }
 .nav-link{
     color: red;
 }
 /* Fin Footer */
+/*Mapa*/
+.container-mapa{
+    display: flex;
+}
+.mapa-img{
+    display: flex;
+}
 
 /* ---------------  RUTAS --------------- */
 
@@ -163,11 +171,11 @@ footer {
     flex-wrap: wrap;
 }
 .mapa-dir{
-    margin: 40px;
+    margin: 10px;
 
 }
 .dir{
-    margin: 50px;
+    margin: 10px;
 }
 /*Fin de Mapa*/
 
