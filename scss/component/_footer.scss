@@ -1,0 +1,17 @@
+@import "../base/listas";
+footer {    
+    width: 100%;
+    margin-top: auto;
+}
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    border-top: 5px solid black;
+    border-bottom: 5px solid red;
+    padding: 20px;
+    
+
+}
+.nav-link{
+    color: nth($colores, 1);
+}

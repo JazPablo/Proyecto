@@ -1,0 +1,136 @@
+@import "../base/variable";
+@import "../base/listas";
+
+//* Img principal */
+.container-Imagen {
+    width: 100%;
+}
+.Foto-modelo{
+    width: 100%;
+}
+/*Fin Img principal*/
+/* Carousel */
+.temporada {
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    padding: 50px;
+}
+.Container-carousel{
+    background-color: rgb(169, 163, 163);
+}
+.carousel-control-prev-icon {
+    background-color: nth($colores, 4);
+}
+.carousel-control-next-icon {
+    background-color: nth($colores, 4);
+}
+.color-text{
+    color: nth($colores, 3);
+}
+/*Fin Carousel */
+/* Imagen lineal Negra */
+.container-imglineal{
+    display: flex;
+    justify-content: center;
+}
+.img-negra {
+    display: flex;
+    justify-content: center;
+    background-color: nth($colores, 3);
+}
+/* Fin Imagen lineal Negra */
+/* Cards */
+.container-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+/* Fin Cards */
+/*Contactos*/
+p{
+ color:$bg-p;
+    
+}
+h4 {
+    text-decoration:underline;
+}
+/* Fin Contactos*/
+.container-contactos{
+    margin: 100px;
+    display: flex;
+}
+.flex-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Calzados */
+.titulo-calzados{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(124, 121, 121);
+}
+.container-calzados {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        }
+
+        .div1 { grid-area: 2 / 2 / 3 / 3; }
+        .div2 { grid-area: 4 / 2 / 5 / 3; }
+        .div3 { grid-area: 2 / 4 / 3 / 5; }
+        .div4 { grid-area: 4 / 4 / 5 / 5; }
+
+    @media screen and (max-width: 1050px){
+
+        .div1 { grid-area: 2 / 3 / 3 / 4; }
+        .div2 { grid-area: 3 / 3 / 4 / 4; }
+        .div3 { grid-area: 4 / 3 / 5 / 4; }
+        .div4 { grid-area: 5 / 3 / 6 / 4; }
+ }
+ 
+.Precio{
+    margin-left:20%;
+}
+
+/* Politicas y privacidad */
+
+.politicas-y-privacidad {
+    padding: 50px;
+}
+.pyph1{
+    margin: 40px;
+}
+.pyph2{
+    margin: 20px;
+}
+.pypp{
+    margin: 10px;
+}
+/* Fin Politicas y privacidad */
+
+/* Mapa */
+.container-mapa{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mapa-dir{
+    margin: 10px;
+
+}
+.dir{
+    margin: 10px;
+}
+/*Fin de Mapa*/
+
+@media (max-width: 400px) {       
+.container-flex {
+    flex-direction: column;
+}
+}
+@media (max-width: 600px) { 
+    
+}
