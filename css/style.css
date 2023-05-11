@@ -62,6 +62,11 @@ body {
 }
 
 /*se cuenta desde 1 Ej:" nth ($colores, 1) "*/
+.titulo-calzados, .img-negra, .container-imglineal, .temporada {
+  display: flex;
+  justify-content: center;
+}
+
 .container-Imagen {
   width: 100%;
 }
@@ -73,8 +78,6 @@ body {
 /*Fin Img principal*/
 /* Carousel */
 .temporada {
-  display: flex;
-  justify-content: center;
   font-family: "Bebas Neue", cursive;
   padding: 50px;
 }
@@ -97,14 +100,7 @@ body {
 
 /*Fin Carousel */
 /* Imagen lineal Negra */
-.container-imglineal {
-  display: flex;
-  justify-content: center;
-}
-
 .img-negra {
-  display: flex;
-  justify-content: center;
   background-color: black;
 }
 
@@ -139,8 +135,6 @@ h4 {
 
 /* Calzados */
 .titulo-calzados {
-  display: flex;
-  justify-content: center;
   background-color: rgb(124, 121, 121);
 }
 

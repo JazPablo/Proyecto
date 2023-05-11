@@ -1,6 +1,6 @@
 @import "../base/variable";
 @import "../base/listas";
-
+@import "../base/extends";
 //* Img principal */
 .container-Imagen {
     width: 100%;
@@ -11,8 +11,7 @@
 /*Fin Img principal*/
 /* Carousel */
 .temporada {
-    display: flex;
-    justify-content: center;
+    @extend %flexcenter;
     font-family: 'Bebas Neue', cursive;
     padding: 50px;
 }
@@ -31,12 +30,10 @@
 /*Fin Carousel */
 /* Imagen lineal Negra */
 .container-imglineal{
-    display: flex;
-    justify-content: center;
+    @extend %flexcenter;
 }
 .img-negra {
-    display: flex;
-    justify-content: center;
+    @extend %flexcenter;
     background-color: nth($colores, 3);
 }
 /* Fin Imagen lineal Negra */
@@ -67,8 +64,7 @@ h4 {
 
 /* Calzados */
 .titulo-calzados{
-    display: flex;
-    justify-content: center;
+    @extend %flexcenter;
     background-color: rgb(124, 121, 121);
 }
 .container-calzados {
