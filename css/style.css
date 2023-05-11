@@ -218,5 +218,11 @@ h4 {
     flex-direction: column;
   }
 }
+.temporada, .container-imglineal, .img-negra, .titulo-calzados {
+  display: flex;
+  justify-content: center;
+}
+
+/*se cuenta desde 1 Ej:" nth ($colores, 1) "*/
 
 /*# sourceMappingURL=style.css.map */
