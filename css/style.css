@@ -201,7 +201,6 @@ h4 {
 /* Mapa */
 .container-mapa {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .mapa-dir {
