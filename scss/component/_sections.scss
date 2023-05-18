@@ -115,18 +115,24 @@ h4 {
 .mapa-dir{
     margin: 10px;
 }
+
 .dir{
     margin: 10px;
     font-family: 'Courier Prime', monospace;
     font-size: 20px;
     font-weight: normal;
-    
+
 }
 /*Fin de Mapa*/
 
 @media (max-width: 400px) {       
 .container-flex {
     flex-direction: column;
+}
+}
+@media (max-width: 500px) {
+.container-contactos{
+    margin: 20px;
 }
 }
 @media (max-width: 600px) { 

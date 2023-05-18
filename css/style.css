@@ -220,6 +220,11 @@ h4 {
     flex-direction: column;
   }
 }
+@media (max-width: 500px) {
+  .container-contactos {
+    margin: 20px;
+  }
+}
 .temporada, .container-imglineal, .img-negra, .titulo-calzados {
   display: flex;
   justify-content: center;
